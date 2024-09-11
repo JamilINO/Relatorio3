@@ -1,3 +1,5 @@
+/* Código Copiado de Jamil Kalil Naufrau Júnior*/
+
 //Definicoes e constantes
 #define SentidoEntrada1 7
 #define SentidoEntrada2 8
