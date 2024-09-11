@@ -14,8 +14,6 @@ void setup() {
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
-
   valPot = analogRead(pinPot);  /* Lê o Valor do potênciometro */
   angulo = map(valPot, 0, 1023, 0, 180); /* Converte o valor para o intervalo de graus */
   servoMotor.write(angulo); /* Envia ao servo motor o novo ângulo desejado */
